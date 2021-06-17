@@ -1,0 +1,7 @@
+[2021-06-17T12:42:11,186][WARN ][logstash.runner          ] SIGINT received. Shutting down the agent.
+[2021-06-17T12:42:16,081][INFO ][logstash.pipeline        ] Pipeline terminated {"pipeline.id"=>"main"}
+[2021-06-17T12:42:16,216][WARN ][logstash.runner          ] Received shutdown signal, but pipeline is still waiting for in-flight events
+to be processed. Sending another ^C will force quit Logstash, but this may cause
+data loss.
+[2021-06-17T12:42:16,427][WARN ][logstash.shutdownwatcher ] {"inflight_count"=>0, "stalling_thread_info"=>{}}
+[2021-06-17T12:42:16,453][ERROR][logstash.shutdownwatcher ] The shutdown process appears to be stalled due to busy or blocked plugins. Check the logs for more information.
